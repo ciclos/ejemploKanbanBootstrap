@@ -1,2 +1,21 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+body.tema {
+    &.claro {
+        header {
+            ul {
+                display: none;
+            }
+        }
+    }
+
+    &.oscuro {
+        header {
+
+            nav {
+                display: none;
+            }
+        }
+    }
+}
